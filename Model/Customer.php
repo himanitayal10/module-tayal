@@ -69,7 +69,6 @@ class Customer
                 'group_id'      => 1,
                 'lastname'      => $data['lname'],
                 'middlename'    => null,
-                'password_hash' => $data['password_hash'],
                 'prefix'        => null,
                 'store_id'      => $storeId,
                 'website_id'    => $websiteId,
