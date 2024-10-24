@@ -1,5 +1,5 @@
 {
-    "name": "tayalhimani/module-tayal",
+    "name": "himanitayal10/module-tayal",
     "description": "Import Customers from profiles",
     "type": "magento2-module",
     "license": [
@@ -20,11 +20,10 @@
             "Himani\\Tayal\\": ""
         }
     },
-    "license":"Himani Tayal",
     "repositories":[
         {
             "type": "git",
-            "url": "git@github.com:tayalhimani/himani.git"
+            "url": "git@github.com:himanitayal10/module-tayal.git"
         }
     ],
     "minimum-stability": "dev",
