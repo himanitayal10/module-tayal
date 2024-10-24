@@ -1,0 +1,33 @@
+{
+    "name": "tayalhimani/module-tayal",
+    "description": "Import Customers from profiles",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/module-customer": "103.0.*",
+        "magento/module-customer-import-export": "100.4.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Himani\\Tayal\\": ""
+        }
+    },
+    "license":"Himani Tayal",
+    "repositories":[
+        {
+            "type": "git",
+            "url": "git@github.com:tayalhimani/himani.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
