@@ -40,13 +40,12 @@ class ProfileFactory
      */
     public function create(string $type): CustomerInterface
     {
-
         if ($type === "csv") {
-            $class = CsvImporter::class;
+            $class = ImportCsv::class;
         } elseif ($type === "json") {
-            $class = JsonImporter::class;
+            $class = ImportJson::class;
         } else {
-            throw new \AlreadyExistsException(__("Unsupported Profile type specified"));
+            throw new AlreadyExistsException(__("Unsupported Profile type specified"));
         }
         return $this->objectManager->create($class);
     }
